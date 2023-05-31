@@ -5,11 +5,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <h1 className={styles.heading}>Furniture Design</h1>
-      <div>
-        <span></span>
-        <span></span>
+      <div className={styles.trigger}>
+        <span className={styles.border}></span>
+        <span className={styles.border}></span>
       </div>
     </header>
   )

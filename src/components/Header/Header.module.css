@@ -1,3 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
 .heading {
+  height: 100%;
   color: red;
+}
+
+.trigger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.trigger .border {
+  display: block;
+  width: 30px;
+  height: 2px;
 }

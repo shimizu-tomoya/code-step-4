@@ -8,7 +8,7 @@ export default function Company() {
   return (
     <>
       <Head>
-        <title>Furniture Design</title>
+        <title>Furniture Design/company</title>
       </Head>
       <Main />
     </>

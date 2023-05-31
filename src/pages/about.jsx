@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Furniture Design</title>
+        <title>Furniture Design/about</title>
       </Head>
       <Main />
     </>
