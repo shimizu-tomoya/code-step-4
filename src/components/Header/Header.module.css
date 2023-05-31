@@ -6,18 +6,28 @@
 }
 
 .heading {
-  height: 100%;
-  color: red;
+  font-size: 22.5px;
 }
 
 .trigger {
   width: 30px;
   height: 30px;
   cursor: pointer;
+  position: relative;
 }
 
 .trigger .border {
   display: block;
   width: 30px;
   height: 2px;
+  background-color: #333;
+  position: absolute;
+}
+
+.trigger .border:nth-child(1) {
+  top: 10px;
+}
+
+.trigger .border:nth-child(2) {
+  bottom: 10px;
 }
